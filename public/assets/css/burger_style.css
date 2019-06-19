@@ -1,0 +1,53 @@
+body {
+    background: url("../images/Optimized-tinaburger.jpg") center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.row {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.card-body {
+    background-color: #faed50;
+    color: #d11106;
+    border: 5px solid #d11106;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+li {
+    color: black;
+    padding-top: 10px;
+}
+
+.card {
+    border: none !important;
+}
+
+.add-burger {
+    margin-top: 150px;
+}
+
+.card-title {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-size: 31px;
+    letter-spacing: 2px;
+}
+
+.form-style {
+    text-align: center;
+    color: black;
+}
+
+button {
+    color: #faed50;
+    font-weight: bold;
+    background-color: #d11106;
+    box-shadow: 1px 1px 1px 1px black;
+    border: none;
+    margin-left: 20px !important;
+}
