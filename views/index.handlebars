@@ -6,9 +6,12 @@
           <h5 class="card-title">Ready to Eat</h5>
           <ol>
             {{#each burgers}}
-            {{#unless devoured}}
-            {{> burgers/burger-block devoured=true}}
-            {{/unless}}
+            {{#if this.devoured}}
+            <li>
+            {{burger_name}}
+            <button class="change-devoured" data-id="{{this.id}}" data-newdevoured="{{devoured}}">EAT ME</button>
+            </li>
+            {{/if}}
             {{/each}}
           </ol>
         </div>
@@ -21,9 +24,12 @@
           <h5 class="card-title">Already Eaten</h5>
           <ol>
             {{#each burgers}}
-            {{#if devoured}}
-            {{> burgers/burger-block devoured=false}}
-            {{/if}}
+            {{#unless this.devoured}}
+            <li>
+            {{burger_name}}
+            <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+            </li>
+            {{/unless}}
             {{/each}}
           </ol>
         </div>
@@ -33,17 +39,17 @@
 
   <div class="row">
     <div class="col-md-8">
-    <div class="card add-burger">
-      <div class="card-body">
-        <h5 class="card-title">Add a Burger</h5>
-        <form class="create-form form-style">
-          <div class="form-group">
-            <label for="ca">Burger Name</label>
-            <input type="text" id="ca" name="name">
-          </div>
-          <button type="submit">Add Burger</button>
-        </form>
-      </div>
+      <div class="card add-burger">
+        <div class="card-body">
+          <h5 class="card-title">Add a Burger</h5>
+          <form class="create-form form-style">
+            <div class="form-group">
+              <label for="ca">Burger Name</label>
+              <input type="text" id="ca" name="name">
+            </div>
+            <button type="submit">Add Burger</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
