@@ -37,16 +37,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With 🔧
 
-* [Node] (https://nodejs.org/en/download/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. 
-* [Javascript] (https://www.javascript.com/) - JavaScript is the programming language of HTML and the Web
-* [JSON] (https://www.json.org/) - Javascript object notation, syntax for storing and exchanging information. 
-* [Express] (https://www.npmjs.com/package/express) - Node.js web app framework designed to make developing websites, web apps, & API's much easier.
-* [MySQL] (https://www.mysql.com/) - Open source relational database management system (RDBMS) based on Structured Query Language (SQL)
-* [Handlebars] (https://handlebarsjs.com/) - Handlebars allows you to separate the generation of HTML from the rest of your JavaScript and write cleaner code.
-* [Sequelize] - (https://sequelize.readthedocs.io/en/v3/) - Connects objects with relational database systems. 
-* [MVC] - (https://www.geeksforgeeks.org/mvc-design-pattern/) - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller.
+* [Node](https://nodejs.org/en/download/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. 
+* [Javascript](https://www.javascript.com/) - JavaScript is the programming language of HTML and the Web
+* [JSON](https://www.json.org/) - Javascript object notation, syntax for storing and exchanging information. 
+* [Express](https://www.npmjs.com/package/express) - Node.js web app framework designed to make developing websites, web apps, & API's much easier.
+* [MySQL](https://www.mysql.com/) - Open source relational database management system (RDBMS) based on Structured Query Language (SQL)
+* [Handlebars](https://handlebarsjs.com/) - Handlebars allows you to separate the generation of HTML from the rest of your JavaScript and write cleaner code.
+* [Sequelize](https://sequelize.readthedocs.io/en/v3/) - Connects objects with relational database systems. 
+* [MVC](https://www.geeksforgeeks.org/mvc-design-pattern/) - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller.
  
-
 ## Author ⌨️
 *** Amanda Dovel *** - [amandadovel](https://github.com/amandadovel)
 
